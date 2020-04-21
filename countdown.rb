@@ -13,6 +13,7 @@ end
 def countdown_with_sleep(integer)
 integer = 10
 while integer > 0
+puts "#{integer} seconds"
 sleep(1)
 interger -= 10
 end
