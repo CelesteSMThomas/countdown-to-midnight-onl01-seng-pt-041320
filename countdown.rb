@@ -15,6 +15,6 @@ integer = 10
 while integer > 0
 puts "#{integer} seconds"
 sleep(1)
-interger -= 10
+interger -= 1
 end
 end
