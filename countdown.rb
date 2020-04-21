@@ -11,4 +11,9 @@ end
 
 
 def countdown_with_sleep(integer)
-  
+integer = 10
+while integer > 0
+sleep 1
+interger -= 10
+end
+end
