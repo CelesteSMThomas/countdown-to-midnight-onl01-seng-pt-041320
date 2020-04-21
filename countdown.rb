@@ -1,6 +1,9 @@
 #write your code here
 
-def countdown(integer)
-  while integer > 0
-  puts "#{"
+def countdown(number)
+  number = 10
+  while number > 0
+  puts "#{number} SECOND(S)!"
+  number -= 1
+end
 end
